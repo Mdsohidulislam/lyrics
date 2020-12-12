@@ -1,0 +1,128 @@
+body{
+    background-image:linear-gradient(90deg,black,grey,black);
+}
+.main{
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative; 
+}
+.search-header{ 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Langar', cursive;
+    color: #00cc66;
+}
+.search-area{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+.search-box{
+    box-sizing: border-box;
+    height: 40px;
+    min-width: 400px;  
+    outline: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Langar', cursive;
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    background-color:white;
+    color: black;
+}
+.search-btn{
+    margin-top: 1.5px;
+    box-sizing: border-box;
+    height: 38px;
+    min-width: 80px; 
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(33deg,red,yellow);
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Langar', cursive;
+    font-family: 'Lobster', cursive;
+}
+.result-box{
+    box-sizing: border-box; 
+    position: relative;
+    height: 200px;
+    max-width: 400px;  
+    margin: 20px auto;
+    background-color: blue;
+    border-radius: 5px 5px 30px 30px;
+}
+.result-box:hover{
+    box-shadow:  0 0 44px white;
+}
+.get-btn{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Langar', cursive;
+    font-family: 'Lobster', cursive;
+    border-radius: 0 0 30px 30px;
+    box-sizing: border-box;
+    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.get-audio{
+    position: absolute;
+    height: 30px;
+    background-color: white;
+    outline: none;
+    border: none;
+    min-width: 400px;
+    bottom: 31px;
+}
+.get-img{
+    position: absolute;
+    min-width:400px;
+    height: 137px;
+    border-radius: 10px 10px 0 0;
+}
+.intro{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    padding-left: 5px;
+    font-weight: 900;
+    width: 400px;
+    border-radius: 10px 10px 0 0; 
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-family: 'Anton', sans-serif;
+}
+.display{
+    color: white; 
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Codystar', cursive;
+}
+.result-2{
+    text-align: center;
+    color: white;
+}
